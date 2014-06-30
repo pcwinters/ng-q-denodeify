@@ -1,0 +1,28 @@
+{
+  "name": "q-ng-denodeify",
+  "version": "0.0.1",
+  "main": "dist/ng-q-denodeify.js",
+  "ignore": [
+    "src",
+    "test",
+    "bower_components"
+  ],
+  "dependencies": {
+    "lodash": "~2",
+    "angular": "~1.2",
+    "angular-mocks": "~1.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "callback",
+    "angular",
+    "Q",
+    "$q"
+  ],
+  "authors": [
+    "Patrick Winters <pwinters@rallydev.com>"
+  ],
+  "homepage": "https://github.com/pcw216/ng-q-denodeify",
+  "repository": "git@github.com:pcw216/ng-q-denodeify.git"
+}
