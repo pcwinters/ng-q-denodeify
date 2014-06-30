@@ -1,11 +1,13 @@
 {
-  "name": "q-ng-denodeify",
+  "name": "ng-q-denodeify",
   "version": "0.0.1",
   "main": "dist/ng-q-denodeify.js",
   "ignore": [
     "src",
     "test",
-    "bower_components"
+    "**/.*",
+    "bower_components",
+    "node_modules"
   ],
   "dependencies": {
     "lodash": "~2",
@@ -24,5 +26,6 @@
     "Patrick Winters <pwinters@rallydev.com>"
   ],
   "homepage": "https://github.com/pcw216/ng-q-denodeify",
-  "repository": "git@github.com:pcw216/ng-q-denodeify.git"
+  "repository": "git@github.com:pcw216/ng-q-denodeify.git",
+  "description": "Decorates ng $q with 'denodeify' support"
 }
