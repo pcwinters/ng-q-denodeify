@@ -2,8 +2,10 @@ matchdep = require('matchdep')
 
 module.exports = (grunt) ->
 	matchdep.filterDev('grunt-*').filter((dep) -> dep != 'grunt-cli').forEach(grunt.loadNpmTasks)
+	
+	grunt.registerTask('default', ['karma','coffee'])
+	
 	grunt.initConfig 
-
 		coffee:
 			compile:
 				options:
